@@ -1,68 +1,66 @@
-# Amal Khardli
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Amal Khardli — Data Analyst · Business Intelligence · Software Development · Jeddah, Saudi Arabia" />
+</p>
 
-**Data Analyst** · Jeddah, Saudi Arabia
+<p align="center">
+  <a href="https://amalkhardli.space"><img src="https://img.shields.io/badge/Portfolio-amalkhardli.space-3A5A78?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:amalalikhardli@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_me-3A5A78?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <!-- LinkedIn: replace YOUR-HANDLE, then move this line out of the comment
+  <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-Connect-3A5A78?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  -->
+</p>
 
-I turn raw data into clear, checked answers. I hold a Postgraduate Diploma in Data Science and a B.Sc. in Computer Science & IT from Jazan University. I work mainly with **Python, SQL, Excel and Power BI**, and I also build full-stack web apps with **React, TypeScript and Node.js**.
+<br />
 
-I'm open to **entry-level roles in data analysis, business intelligence and software development**.
+I turn raw data into clear, checked answers. I hold a **Postgraduate Diploma in Data Science** and a **B.Sc. in Computer Science & IT** from Jazan University. I work mainly with **Python, SQL, Excel and Power BI**, and I also build full-stack web apps with **React, TypeScript and Node.js**.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-amalkhardli.space-3A5A78?style=flat-square)](https://amalkhardli.space)
-[![Email](https://img.shields.io/badge/Email-amalalikhardli%40gmail.com-3A5A78?style=flat-square)](mailto:amalalikhardli@gmail.com)
-<!-- Add your LinkedIn badge here:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Amal%20Khardli-3A5A78?style=flat-square)](https://www.linkedin.com/in/YOUR-HANDLE)
--->
+I'm currently open to **entry-level roles in data analysis, business intelligence and software development**.
 
----
+<br />
 
 ## Featured projects
 
-### 📊 [Saudi Labor Market 2021–2026: Did falling unemployment mean more Saudis in work?](https://github.com/anamallay/saudi-labor-market-analysis)
+<a href="https://github.com/anamallay/saudi-labor-market-analysis">
+  <img src="assets/project-labor-market.svg" width="100%" alt="Saudi Labor Market 2021–2026: a reproducible analysis of 20 quarterly GASTAT releases. Saudi unemployment fell from 11.3% to 7.0%." />
+</a>
 
-An end-to-end analysis of official GASTAT Labor Force Survey data, from raw Excel releases to a self-contained dashboard.
+<details>
+<summary><b>What I did in this project</b></summary>
+<br />
 
-- Built a reproducible Python pipeline that reads **20 quarterly releases** (98,572 published values), harmonizes changing table layouts, and produces a tidy dataset of **58,873 observations**, logging all 123 values GASTAT revised between releases.
+- Built a reproducible Python pipeline that reads **20 quarterly GASTAT releases** (98,572 published values), harmonizes changing table layouts, and produces a tidy dataset of **58,873 observations**, logging all 123 values GASTAT revised between releases.
 - Found that Saudi unemployment fell from **11.3% to 7.0%** while participation stayed near 49%, so the drop came from more Saudis working rather than people leaving the labor force. Women drove most of the gain.
-- Checked every trend against GASTAT's survey-method changes, and wrote automated validation checks that confirm the three headline rates agree with each other.
+- Checked every trend against GASTAT's survey-method changes, and wrote automated validation checks that confirm the headline rates agree with each other.
 - Generated a single-file HTML dashboard whose text is built from the analysis tables, so its figures can't drift from the results.
+<!-- After enabling GitHub Pages, add: [**View the live dashboard →**](https://anamallay.github.io/saudi-labor-market-analysis/dashboard/) -->
 
-`Python` `pandas` `matplotlib` `data validation` `data visualization`
+</details>
 
-### 🧪 Digital Tests: bilingual quiz platform ([frontend](https://github.com/anamallay/Frontend-Digital-Tests) · [backend](https://github.com/anamallay/Backend-Digital-Tests))
+<br />
 
-A full-stack Arabic/English web app for creating, sharing and taking timed quizzes, deployed on Vercel with MongoDB Atlas.
+<p>
+  <a href="https://github.com/anamallay/Frontend-Digital-Tests"><img src="assets/project-digital-tests.svg" width="49%" alt="Digital Tests: full-stack bilingual quiz platform built with React, TypeScript, Redux, Node.js and MongoDB" /></a>
+  <a href="https://github.com/anamallay/X-Date-Converter"><img src="assets/project-x-date.svg" width="49%" alt="X Date Converter: Chrome extension that shows X.com dates in the Hijri calendar" /></a>
+</p>
 
-- **Frontend:** React, TypeScript and Redux Toolkit, with right-to-left Arabic support from the first paint, timed quizzes that survive page refreshes without duplicate submissions, and a mock backend for offline development.
-- **Backend:** REST API in Node.js, Express and TypeScript, with JWT cookie authentication, email notifications, and English/Arabic localization.
-- **Data model:** MongoDB schema with indexes on frequent lookups, including a compound unique index that enforces one score per user per quiz.
+<p align="center">
+  <sub><b>Digital Tests:</b> <a href="https://github.com/anamallay/Frontend-Digital-Tests">frontend</a> · <a href="https://github.com/anamallay/Backend-Digital-Tests">backend</a> &nbsp;&nbsp;|&nbsp;&nbsp; <b>X Date Converter:</b> <a href="https://github.com/anamallay/X-Date-Converter">repository</a></sub>
+</p>
 
-`React` `TypeScript` `Redux Toolkit` `Node.js` `Express` `MongoDB`
-
-### 📅 [X Date Converter](https://github.com/anamallay/X-Date-Converter)
-
-A Chrome extension that shows post dates on X.com in the Hijri calendar. Click any date to switch back to the original.
-
-`JavaScript` `React` `Vite` `Chrome Extensions API`
-
----
+<br />
 
 ## Skills
 
-**Data analysis:** Python (pandas, NumPy), SQL, Excel (Pivot Tables, VLOOKUP), Power BI, Jupyter, data cleaning, EDA, data validation, data visualization
+<img src="assets/skills.svg" width="100%" alt="Data Analysis: Python, pandas, NumPy, SQL, Excel, Power BI, Jupyter. Statistics and ML: EDA, hypothesis testing, regression, classification, clustering. Databases: MySQL, MongoDB. Web Development: TypeScript, JavaScript, React, Redux Toolkit, Node.js, Express, Tailwind CSS. Tools: Git, GitHub, Bash, Postman, Vercel." />
 
-**Statistics & ML:** descriptive statistics, hypothesis testing, correlation analysis, linear and logistic regression, classification, clustering
-
-**Databases:** MySQL, MongoDB
-
-**Web development:** JavaScript, TypeScript, React, Redux Toolkit, Node.js, Express, REST APIs, Tailwind CSS
-
-**Tools:** Git, GitHub, Bash, Postman, Vercel
-
----
+<br />
 
 ## Education & training
 
-- **Postgraduate Diploma in Data Science**, Jazan University (2026)
-- **B.Sc. in Computer Science & Information Technology**, Jazan University (2022)
-- **Software Development Bootcamp**, Saudi Digital Academy & Integrify Academy (2024)
+<img src="assets/education.svg" width="100%" alt="Postgraduate Diploma in Data Science, Jazan University, 2026. Software Development Bootcamp, Saudi Digital Academy and Integrify Academy, 2024. B.Sc. in Computer Science and Information Technology, Jazan University, 2022." />
 
-Languages: Arabic (native), English (professional)
+<br />
+
+<p align="center">
+  <sub>Arabic (native) · English (professional) &nbsp;·&nbsp; Based in Jeddah, Saudi Arabia</sub>
+</p>
