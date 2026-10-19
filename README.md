@@ -1,66 +1,118 @@
-<p align="center">
-  <img src="assets/header.svg" width="100%" alt="Amal Khardli — Data Analyst · Business Intelligence · Software Development · Jeddah, Saudi Arabia" />
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://amalkhardli.space"><img src="https://img.shields.io/badge/Portfolio-amalkhardli.space-3A5A78?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="mailto:amalalikhardli@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_me-3A5A78?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <!-- LinkedIn: replace YOUR-HANDLE, then move this line out of the comment
-  <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-Connect-3A5A78?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  -->
-</p>
+# Amal Khardli
 
-<br />
+**Data Analyst** &nbsp;·&nbsp; Business Intelligence &nbsp;·&nbsp; Software Development
+
+📍 Jeddah, Saudi Arabia &nbsp;·&nbsp; Open to entry-level roles &nbsp;·&nbsp; Arabic & English
+
+🌐 [amalkhardli.space](https://amalkhardli.space) &nbsp;&nbsp;|&nbsp;&nbsp; ✉️ [amalalikhardli@gmail.com](mailto:amalalikhardli@gmail.com)
+<!-- LinkedIn: replace YOUR-HANDLE, then move this line out of the comment
+&nbsp;&nbsp;|&nbsp;&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/YOUR-HANDLE)
+-->
+
+</div>
+
+---
+
+### 👋 About me
 
 I turn raw data into clear, checked answers. I hold a **Postgraduate Diploma in Data Science** and a **B.Sc. in Computer Science & IT** from Jazan University. I work mainly with **Python, SQL, Excel and Power BI**, and I also build full-stack web apps with **React, TypeScript and Node.js**.
 
-I'm currently open to **entry-level roles in data analysis, business intelligence and software development**.
+> 💼 Currently open to **entry-level roles in data analysis, business intelligence and software development**.
 
 <br />
 
-## Featured projects
+## 📊 Featured project
 
-<a href="https://github.com/anamallay/saudi-labor-market-analysis">
-  <img src="assets/project-labor-market.svg" width="100%" alt="Saudi Labor Market 2021–2026: a reproducible analysis of 20 quarterly GASTAT releases. Saudi unemployment fell from 11.3% to 7.0%." />
-</a>
+### [Saudi Labor Market 2021–2026](https://github.com/anamallay/saudi-labor-market-analysis)
 
-<details>
-<summary><b>What I did in this project</b></summary>
-<br />
+*Did falling unemployment mean more Saudis in work? A reproducible analysis of official GASTAT survey data.*
 
-- Built a reproducible Python pipeline that reads **20 quarterly GASTAT releases** (98,572 published values), harmonizes changing table layouts, and produces a tidy dataset of **58,873 observations**, logging all 123 values GASTAT revised between releases.
-- Found that Saudi unemployment fell from **11.3% to 7.0%** while participation stayed near 49%, so the drop came from more Saudis working rather than people leaving the labor force. Women drove most of the gain.
-- Checked every trend against GASTAT's survey-method changes, and wrote automated validation checks that confirm the headline rates agree with each other.
+<table>
+  <tr>
+    <td align="center" width="25%"><h3>20</h3><sub>quarterly GASTAT releases</sub></td>
+    <td align="center" width="25%"><h3>58,873</h3><sub>tidy observations</sub></td>
+    <td align="center" width="25%"><h3>11.3% → 7.0%</h3><sub>Saudi unemployment</sub></td>
+    <td align="center" width="25%"><h3>123</h3><sub>revisions logged</sub></td>
+  </tr>
+</table>
+
+- Built a reproducible Python pipeline that reads 20 quarterly releases (98,572 published values), harmonizes changing table layouts, and produces one tidy dataset.
+- Found that unemployment fell while participation stayed near 49%, so the drop came from **more Saudis working**, not people leaving the labor force. Women drove most of the gain.
+- Checked every trend against GASTAT's survey-method changes, with automated validation checks that confirm the headline rates agree.
 - Generated a single-file HTML dashboard whose text is built from the analysis tables, so its figures can't drift from the results.
-<!-- After enabling GitHub Pages, add: [**View the live dashboard →**](https://anamallay.github.io/saudi-labor-market-analysis/dashboard/) -->
 
-</details>
+`Python` `pandas` `matplotlib` `Data validation` `HTML dashboard`
 
-<br />
-
-<p>
-  <a href="https://github.com/anamallay/Frontend-Digital-Tests"><img src="assets/project-digital-tests.svg" width="49%" alt="Digital Tests: full-stack bilingual quiz platform built with React, TypeScript, Redux, Node.js and MongoDB" /></a>
-  <a href="https://github.com/anamallay/X-Date-Converter"><img src="assets/project-x-date.svg" width="49%" alt="X Date Converter: Chrome extension that shows X.com dates in the Hijri calendar" /></a>
-</p>
-
-<p align="center">
-  <sub><b>Digital Tests:</b> <a href="https://github.com/anamallay/Frontend-Digital-Tests">frontend</a> · <a href="https://github.com/anamallay/Backend-Digital-Tests">backend</a> &nbsp;&nbsp;|&nbsp;&nbsp; <b>X Date Converter:</b> <a href="https://github.com/anamallay/X-Date-Converter">repository</a></sub>
-</p>
+**[View repository →](https://github.com/anamallay/saudi-labor-market-analysis)**
+<!-- After enabling GitHub Pages, add: &nbsp;·&nbsp; **[View live dashboard →](https://anamallay.github.io/saudi-labor-market-analysis/dashboard/)** -->
 
 <br />
 
-## Skills
+## 🛠️ More projects
 
-<img src="assets/skills.svg" width="100%" alt="Data Analysis: Python, pandas, NumPy, SQL, Excel, Power BI, Jupyter. Statistics and ML: EDA, hypothesis testing, regression, classification, clustering. Databases: MySQL, MongoDB. Web Development: TypeScript, JavaScript, React, Redux Toolkit, Node.js, Express, Tailwind CSS. Tools: Git, GitHub, Bash, Postman, Vercel." />
+<table>
+  <tr>
+    <td width="50%" valign="top">
+
+### 🧪 Digital Tests
+<sub>FULL-STACK WEB APP</sub>
+
+A bilingual Arabic/English platform for creating, sharing and taking timed quizzes, deployed on Vercel.
+
+- RTL-first interface and a refresh-safe quiz timer
+- REST API with JWT auth and email notifications
+- MongoDB schema with a compound unique index
+
+`React` `TypeScript` `Node.js` `MongoDB`
+
+**[Frontend →](https://github.com/anamallay/Frontend-Digital-Tests)** &nbsp; **[Backend →](https://github.com/anamallay/Backend-Digital-Tests)**
+
+</td>
+    <td width="50%" valign="top">
+
+### 📅 X Date Converter
+<sub>CHROME EXTENSION</sub>
+
+Shows post dates on X.com in the Hijri calendar. Click any date to switch back to the original.
+
+- Manifest V3 content script and React popup
+- Converts new posts live as you scroll
+- On/off setting synced with Chrome storage
+
+`JavaScript` `React` `Vite`
+
+**[Repository →](https://github.com/anamallay/X-Date-Converter)**
+
+</td>
+  </tr>
+</table>
 
 <br />
 
-## Education & training
+## 🧰 Skills
 
-<img src="assets/education.svg" width="100%" alt="Postgraduate Diploma in Data Science, Jazan University, 2026. Software Development Bootcamp, Saudi Digital Academy and Integrify Academy, 2024. B.Sc. in Computer Science and Information Technology, Jazan University, 2022." />
+| Area | Technologies |
+|:--|:--|
+| **Data analysis** | `Python` `pandas` `NumPy` `SQL` `Excel` `Power BI` `Jupyter` |
+| **Statistics & ML** | `EDA` `Hypothesis testing` `Regression` `Classification` `Clustering` |
+| **Databases** | `MySQL` `MongoDB` |
+| **Web development** | `TypeScript` `JavaScript` `React` `Redux Toolkit` `Node.js` `Express` `Tailwind CSS` |
+| **Tools** | `Git` `GitHub` `Bash` `Postman` `Vercel` |
 
 <br />
 
-<p align="center">
-  <sub>Arabic (native) · English (professional) &nbsp;·&nbsp; Based in Jeddah, Saudi Arabia</sub>
-</p>
+## 🎓 Education & training
+
+| Year | Program | Institution |
+|:--:|:--|:--|
+| **2026** | Postgraduate Diploma in Data Science | Jazan University |
+| **2024** | Software Development Bootcamp | Saudi Digital Academy & Integrify Academy |
+| **2022** | B.Sc. in Computer Science & Information Technology | Jazan University |
+
+---
+
+<div align="center">
+<sub>Thanks for visiting · Feel free to reach out about data analysis, BI or development opportunities</sub>
+</div>
